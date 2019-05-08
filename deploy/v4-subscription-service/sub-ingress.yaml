@@ -14,6 +14,6 @@ spec:
       - backend:
           serviceName: sub
           servicePort: 3000
-        path: /sub
+        path: /mighty-fine
 status:
   loadBalancer: {}
