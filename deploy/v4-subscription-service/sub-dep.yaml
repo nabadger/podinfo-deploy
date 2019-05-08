@@ -19,9 +19,6 @@ spec:
       containers:
       - name: sub
         image: quay.io/repository/brice/metrics-demo:v4-subscription-service
-        command:
-        - ./sub
-        - --port=3000
         ports:
         - containerPort: 3000
         readinessProbe:
