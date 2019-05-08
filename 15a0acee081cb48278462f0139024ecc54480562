@@ -1,0 +1,1 @@
+{"jobID":"82a5ff96-885c-8ce9-6bb1-4f2e7bb3fa90","spec":{"type":"policy","cause":{"Message":"","User":"nick badger \u003cnbadger@mintel.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
