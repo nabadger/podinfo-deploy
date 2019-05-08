@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    traefik.frontend.rule.type: PathPrefixStrip
+  creationTimestamp: null
+  name: sub
+  namespace: dev
+spec:
+  rules:
+  - http:
+      paths:
+      - backend:
+          serviceName: sub
+          servicePort: 3000
+        path: /sub
+status:
+  loadBalancer: {}
